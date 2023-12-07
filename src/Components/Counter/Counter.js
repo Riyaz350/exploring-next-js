@@ -9,6 +9,8 @@ const Counter = () => {
             <h1>{count}</h1>
             <button className="btn bg-red-400 btn-primary" onClick={()=>setCount(count+1)}>Increase</button>
             <button className="btn btn-primary" onClick={()=>setCount(count-1)}>Decrease</button>
+            
+
         </div>
     );
 };
